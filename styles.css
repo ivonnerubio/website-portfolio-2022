@@ -1,0 +1,42 @@
+.navbar-header{
+    color: darkgreen;
+    border: red solid;
+}
+
+
+
+
+
+
+
+.navbar-menu{
+    position: absolute;
+    width: 100%;
+    border: red solid;
+}
+
+.navbar-nav {
+    text-align: center;
+    
+}
+  
+.navbar-nav  ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border: red solid;
+}
+
+
+.about{
+    
+    border: red solid;
+}
+
+
+.projects{
+    border: red solid;
+}
+
+.projects ul li{
+    border: red solid;
+}
