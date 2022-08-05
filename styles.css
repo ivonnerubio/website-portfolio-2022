@@ -1,42 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-header{
-    color: darkgreen;
-    border: red solid;
+    padding-top: 2%;
+    color: rgb(25, 65, 54);
+    padding-left: 7%;
+    font-weight: 800;
 }
 
-
-
-
-
-
-
-.navbar-menu{
-    position: absolute;
-    width: 100%;
-    border: red solid;
+.navbar-header h4{
+    font-weight: bolder;
 }
 
-.navbar-nav {
-    text-align: center;
-    
+.navbar-header img{
+    width: 5%;
+    padding-right: 1%;
 }
-  
-.navbar-nav  ul li{
-    display: inline-block;
-    padding: 0 5px;
-    border: red solid;
+
+h1, h2, h3, h4, h5, button{
+    font-family: Fraunces;
+}
+
+.front-page{
+    padding: 10%;
+    padding-bottom: 0%;
+}
+
+.front-page h1{
+    padding-bottom: 2%;
+    font-size: 300%;
+    padding-left: 2%;
+}
+
+.front-page h3{
+    padding-left: 5%;
+    padding-bottom: 1%;
+    width: 60%;
+    font-size: 200%;
+}
+
+.front-page button{
+    position: relative;
+    left: 5%;
+
 }
 
 
 .about{
-    
-    border: red solid;
+    border: darkgreen solid;
+    background-color: rgb(66, 103, 94);
+    color: white;
+    padding: 10%;
 }
 
 
 .projects{
     border: red solid;
+    padding: 10%;
+
 }
 
 .projects ul li{
     border: red solid;
+}
+
+button{
+    background-color: rgb(66, 103, 94);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.projectsButton{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a{
+    color: inherit;
 }
