@@ -48,10 +48,24 @@ h1, h2, h3, h4, h5, button{
 
 
 .about{
-    border: darkgreen solid;
     background-color: rgb(66, 103, 94);
     color: white;
-    padding: 10%;
+    height: 400px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+}
+
+#left{
+    float: left;
+    padding-left: 10%;
+    width: 50%;
+}
+
+#right{
+    float: right;
+    padding-right: 10%;
+    width: 50%;
 }
 
 
