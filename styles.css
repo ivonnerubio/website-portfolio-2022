@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#topBlackBar {
+    border-top: 7px solid #000;
+}
+
 .navbar-header{
     padding-top: 2%;
     color: rgb(25, 65, 54);
