@@ -101,3 +101,10 @@ button{
 a{
     color: inherit;
 }
+
+
+.project-cards img{
+    
+    width: 20%;
+}
+
