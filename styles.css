@@ -72,11 +72,23 @@ h1, h2, h3, h4, h5, button{
     width: 50%;
 }
 
-
+.wrapper{
+    display: flex;
+}
 .projects{
     border: red solid;
-    padding: 10%;
+    /* padding: 10%; */
+    display: inline-block;
 
+}
+
+.projects h3{
+    font-size: 40px;
+}
+
+.projects h5{
+    font-size: 17px;
+    font-weight: normal;
 }
 
 .projects ul li{
@@ -96,10 +108,14 @@ button{
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-}
+}   
 
 a{
     color: inherit;
+}
+
+.project-cards{
+    border: blue solid;
 }
 
 
@@ -108,3 +124,14 @@ a{
     width: 20%;
 }
 
+.project-cards h3{
+    font-size: 25px;
+    width: 300px;
+}
+
+.project-cards h5{
+    font-size: 15px;
+    width: 300px;
+}
+
+ul li { list-style: none; display: inline; }
