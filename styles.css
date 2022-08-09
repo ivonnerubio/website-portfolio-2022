@@ -118,6 +118,7 @@ a{
 }
 
 .project-cards{
+    width: 20vw;
     border:yellow solid;
     position: relative;
 }
@@ -134,13 +135,18 @@ a{
 .project-cards h3{
     font-size: 25px;
     width: 300px;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-cards p{
     font-size: 14px;
-    width: 300px;
+    padding: 1vw;
+    width: 20vw;
     font-weight: light;
+    border: red solid;
+    text-align: justify;
 }
 
 ul li { 
@@ -152,7 +158,5 @@ ul li {
     padding: 10px; 
     padding-left: 45px;
     padding-right: 45px;
-    border: blacks solid;
-    text-align: center;
     
 }
