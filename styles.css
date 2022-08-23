@@ -152,10 +152,18 @@ ul li {
 
 
 .card-button{
-
     padding: 10px; 
     padding-left: 35px;
     padding-right: 35px;    
+    background-color: rgb(66, 103, 94);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .contact{
