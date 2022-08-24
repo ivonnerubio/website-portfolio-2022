@@ -299,7 +299,16 @@ a, a:hover, a:focus, a:active {
         font-size: 3.4vw;
         width: 80vw;
         text-align: justify;
-    
-
     }
+
+    .contact{
+        height: 90vw;
+    }
+    .contact h3{
+        font-size: 7vw;
+        margin-top: 12vw;
+        margin-bottom: 7vw;
+    }
+
+
   }
