@@ -13,7 +13,7 @@ html {
     font-weight: 800;
 }
 
-.navbar-header h4{
+.navbar-header h4 a{
     font-weight: bolder;
 }
 
@@ -195,8 +195,14 @@ a, a:hover, a:focus, a:active {
 
 
 @media only screen and (max-width: 600px) {
+    .navbar-collapse.in {
+        
+    }
+
+      
     .front-page{
         height: 140vw;
+        margin-top: 30vw;
     }
     .front-page h1{
         width: 80vw;
@@ -261,6 +267,7 @@ a, a:hover, a:focus, a:active {
     .project-cards{
         width: 100%;
         text-align: center;
+        align-items: center;
     }
 
     .project-cards img{
@@ -278,5 +285,21 @@ a, a:hover, a:focus, a:active {
         padding-right: 10vw;
         font-size: .9em;
         font-weight: 400;
+    }
+
+    .project-cards h3{
+        margin-top: 5vw;
+        font-size: 5.5vw;
+        
+    }
+
+    .project-cards p{
+        margin-left: 2vw;
+        margin-bottom: 15vw;
+        font-size: 3.4vw;
+        width: 80vw;
+        text-align: justify;
+    
+
     }
   }
