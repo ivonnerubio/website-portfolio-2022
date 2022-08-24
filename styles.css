@@ -9,7 +9,6 @@ html {
 .navbar-header{
     padding-top: 2%;
     color: rgb(25, 65, 54);
-    padding-left: 7%;
     font-weight: 800;
 }
 
@@ -33,7 +32,7 @@ h1, h2, h3, h4, h5, button{
 
 .front-page h1{
     padding-bottom: 2%;
-    font-size: 2.5em;
+    font-size: 3.5vw;
     padding-left: 2%;
 }
 
@@ -41,7 +40,7 @@ h1, h2, h3, h4, h5, button{
     padding-left: 5%;
     padding-bottom: 1%;
     width: 60%;
-    font-size: 7vw;
+    font-size: 2.5vw;
 }
 
 .front-page button{
@@ -172,7 +171,7 @@ a, a:hover, a:focus, a:active {
 .contact{
     background-color: rgb(66, 103, 94);
     color: white;
-    height: 400px;
+    height: 25vw;
     padding-top: 5vw;
     padding-bottom: 5%;
     text-align: center;
