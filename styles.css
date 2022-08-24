@@ -190,3 +190,56 @@ a, a:hover, a:focus, a:active {
     color: white;
     text-align: center;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .front-page{
+        height: 140vw;
+    }
+    .front-page h1{
+        width: 80vw;
+        font-size: 8vw;
+    }
+    
+    .front-page h3{
+        padding-top: 4vw;
+        width: 70vw;
+        font-size: 5.5vw;
+        
+    }
+
+    .front-page button{
+        margin-top: 15vw;
+    }
+
+
+
+
+
+
+
+
+
+
+    .about{
+        height: 25em;
+        width: auto;
+        
+    }
+    .about h3{
+        padding-top: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .about p{
+        font-size: .9em;
+    }
+
+    #right{
+        width: 100%;
+        padding-left: 10vw;
+        padding-top: 5vw;
+        text-align: justify;
+    }
+  }
