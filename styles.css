@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, button{
     padding-left: 5%;
     padding-bottom: 1%;
     width: 60%;
-    font-size: 2em;
+    font-size: 7vw;
 }
 
 .front-page button{
@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, button{
 
 
 .about{
+    margin-top: -1em;
     background-color: rgb(66, 103, 94);
     color: white;
     height: 25em;
@@ -217,23 +218,21 @@ a, a:hover, a:focus, a:active {
 
 
 
-
-
-
-
-
     .about{
+        margin-top: -1em;
         height: 25em;
         width: auto;
         
     }
     .about h3{
         padding-top: 1.5em;
-        font-size: 1.5em;
+        font-size: 7vw;
     }
 
     .about p{
-        font-size: .9em;
+        font-size: 3.5vw;
+        text-align: justify;
+        width: 80vw;
     }
 
     #right{
@@ -241,5 +240,43 @@ a, a:hover, a:focus, a:active {
         padding-left: 10vw;
         padding-top: 5vw;
         text-align: justify;
+    }
+
+
+
+    .projects h3{
+        font-size: 7vw;
+    }
+
+    .projects p{
+        font-size: 3.5vw;
+        text-align: justify;
+        width: 80vw;
+    }
+
+    .wrapper{
+        display: inline;
+    }
+
+    .project-cards{
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-cards img{
+        width: 75%;
+    }
+    
+    .card-button{
+        margin-bottom: 10vw;
+        width: 100px;
+    }
+
+    .card-button{
+        padding: 2vw; 
+        padding-left: 10vw;
+        padding-right: 10vw;
+        font-size: .9em;
+        font-weight: 400;
     }
   }
