@@ -391,9 +391,10 @@ a, a:hover, a:focus, a:active {
 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
+    .navbar{
+        background-color: transparent;
+    }
     .about{
-        border: red solid;
         height: 45vw;
     }
 
@@ -409,4 +410,30 @@ a, a:hover, a:focus, a:active {
     .projects p{
         font-size: 1.85vw;
     }
+
+    .project-cards h3{
+        font-size: 2.0vw;
+        width: 20vw;
+        text-align: center;
+    }
+
+    .project-cards p{
+        width: 20vw;
+        font-size: 1.7vw;
+        text-align: center;
+
+    }
+
+    .card-button{
+        position: flexible;
+        padding-left: 15px;
+        padding-right: 15px;    
+    }
+
+    .contact{
+        height: 35vw;
+    }
+
 }
+
+
