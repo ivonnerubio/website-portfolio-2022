@@ -127,7 +127,6 @@ a{
     border: black solid;
     margin-bottom: 10px;
     border-radius: 8px;
-
 }
 
 .project-cards h3{
@@ -194,8 +193,8 @@ a, a:hover, a:focus, a:active {
 
 
 @media only screen and (max-width: 600px) {
-    .navbar-collapse.in {
-        
+    .navbar{
+        text-align: center;
     }
 
       
@@ -218,10 +217,6 @@ a, a:hover, a:focus, a:active {
     .front-page button{
         margin-top: 15vw;
     }
-
-
-
-
 
     .about{
         margin-top: -1em;
@@ -310,4 +305,81 @@ a, a:hover, a:focus, a:active {
     }
 
 
+}
+
+
+
+/* Mac / Laptop Size */
+@media screen and (min-width: 1500px) {
+    .navbar{
+        align-items: center;
+        margin-right: 10vw;
+    }
+    .about{
+        padding-top: 8vw;
+    }
+
+    .about h3{
+        font-size: 2vw;
+    }
+    .about p{
+        font-size: 1.1vw;
+    }
+
+    .front-page h1{
+        font-size: 2.5vw;
+        
+    }
+    
+    .front-page h3{
+        font-size: 2.0vw;
+    }
+
+    .about h3{
+        font-size: 2.0vw;
+    }
+
+    .about p{
+        font-size: .95vw;
+    }
+
+    .projects h3{
+        font-size: 2vw;
+    }
+
+    .projects p{
+        font-size: .95vw;
+        width: 35vw;
+    }
+
+    .project-cards{
+        width: 20vw;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .project-cards img{
+        width: 15vw;
+    }
+
+    .card-button{
+        padding: .65em; 
+        padding-left: 2.5vw;
+        padding-right: 2.5vw; 
+    }
+
+    .project-cards h3{
+        font-size: 1.5vw;
+    }
+
+    .project-cards p{
+        font-size: .89vw;
+        width: 20vw;
+        
+    }
+
+
+    .contact{
+        height: 20vw;
+    }
   }
