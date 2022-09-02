@@ -382,4 +382,31 @@ a, a:hover, a:focus, a:active {
     .contact{
         height: 20vw;
     }
-  }
+
+}
+  
+
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .about{
+        border: red solid;
+        height: 45vw;
+    }
+
+    .about h3{
+        margin-top: 7vw;
+    }
+
+    .about p{
+        margin-top: 1.85vw;
+        font-size: 1.85vw;
+    }
+
+    .projects p{
+        font-size: 1.85vw;
+    }
+}
